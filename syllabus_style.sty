@@ -26,6 +26,9 @@
 \definecolor{secondaryColor}{RGB}{204, 0, 0} % Dark Red
 \definecolor{accentColor}{RGB}{230, 230, 230} % Light Gray
 
+% Hyperlink colors
+\hypersetup{colorlinks = true}
+
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
@@ -51,14 +54,14 @@
 
 % Import sections with line breaks
 \newcommand{\sectionseparator}{%
-    \par
-    \vspace{0.2cm}
-    \hrule
+	\par
+	\vspace{0.2cm}
+	\hrule
 }
 
 \newcommand{\importsection}[1]{%
-    \input{#1}
-    \sectionseparator
+	\input{#1}
+	\sectionseparator
 }
 
 %----------------------------------------------------------------------------------------
@@ -68,8 +71,8 @@
 \fancyhf{}
 
 % Header
-\lhead{\includegraphics[height=0.85cm]{assets/logo.png}} 
-\rhead{\textsc{\thesemester} \\ \textbf{\thecoursename}} 
+\lhead{\includegraphics[height=0.85cm]{assets/logo.png}}
+\rhead{\textsc{\thesemester} \\ \textbf{\thecoursename}}
 
 % Footer
 \cfoot{\thepage}
@@ -87,5 +90,13 @@
 \titleformat{\subsection}
 {\color{primaryColor}\large\bfseries}
 {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+{\normalsize\bfseries}
+{\thesubsubsection}{1em}{\underline}
+
+\titleformat{\paragraph}
+{\normalsize\bfseries}
+{\theparagraph}{1em}{}
 
 \endinput

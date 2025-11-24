@@ -1,2 +1,91 @@
 # MacOS
 .DS_Store
+
+# LaTeX
+## Auxiliary files
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Bibliography
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tool directories
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Log files
+*.log
+*.lol
+
+## Intermediate documents
+*.dvi
+*.xdv
+*-converted-to.*
+
+## Hyperref
+*.brf
+
+## Knitr
+*-concordance.tex
+
+## Index
+*.idx
+*.ilg
+*.ind
+
+## Glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+
+## Beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+## Changes
+*.soc
+
+## Comment
+*.cut
+
+## Listings
+*.lol
+
+## Makeindex
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+## TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
